@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa de Cambio</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+   <header>
+       <img class="logo" src="logo.png" alt="Logo Exchange">
+    <ul class="nav">
+           <li><a href="#">Inicio</a></li>
+           <li><a href="#">Sucursales</a></li>
+           <li><a href="#">Contactenos</a></li>
+       </ul>
+   </header>
+   <main>
+   <form action="">
+    <select name="moneda" id="moneda">
+       <option value="dolar">u$s Dolar</option>
+       <option value="euro">Euro</option>
+       <option value="real">Real</option>
+       <option value="guarani">Guaraní</option>
+   </select>
+
+
+    <br>
+    <br>
+    <input id="input" type="text">
+    <br>
+    <br>
+    <input id="button" type="button" value="Realizar transaccion">
+    <input id="clearTrans" type="button" value="Borrar Transacciones Historicas">
+    <br><br>
+    <p>Ud recibirá $<strong id="pesos"></strong></p>
+</form>
+   <p>Historial de Conversiones:</p>
+   <br><br>
+<div>
+    <ul id="listado"></ul>
+
+</div>
+    <script src="script.js"></script>
+</main>
+
+<footer>
+    Copyright 2022 - La Casa de Cambio
+</footer>
+
+  </body>
+</html>
